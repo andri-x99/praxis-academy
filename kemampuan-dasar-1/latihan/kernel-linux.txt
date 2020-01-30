@@ -1,0 +1,3 @@
+Lokasi Kernel Linux :
+1. ls /boot
+2. dpkg --get-selections | grep linux-image

@@ -1,0 +1,106 @@
+1. Perintah ls
+Hasil :
+a@a:~$ ls 
+Desktop    Downloads         Music     Public     Videos
+Documents  examples.desktop  Pictures  Templates
+
+2. Perintah ls -la
+Hasil :
+a@a:/home$ ls -la
+total 16
+drwxr-xr-x  4 root root 4096 Jan 28 23:19 .
+drwxr-xr-x 24 root root 4096 Jan 27 06:33 ..
+drwxr-xr-x 22 a    a    4096 Jan 29 14:40 a
+drwxr-xr-x  2 sari sari 4096 Jan 29 00:31 sari
+
+3. Perintah mkdir
+Hasil :
+a@a:/home$ sudo mkdir coba
+[sudo] password for a: 
+a@a:/home$ ls
+a  coba  sari
+
+4. Perintah rmdir    
+Hasil :
+a@a:/home$ sudo rmdir coba
+a@a:/home$ ls
+a  sari
+
+5. Perintah cat
+Hasil :
+a@a:~$ cat /var/log/syslog > /home/a/log.txt
+a@a:~$ ls
+Desktop    Downloads         log.txt  Pictures  Templates
+Documents  examples.desktop  Music    Public    Videos
+
+6. Perintah chmod       
+Hasil :
+a@a:~$ chmod 777 log.txt 
+a@a:~$ ls -l
+total 380
+drwxr-xr-x 2 a a   4096 Nov 21 09:21 Desktop
+drwxr-xr-x 3 a a   4096 Jan 29 14:15 Documents
+drwxr-xr-x 2 a a   4096 Nov 21 09:21 Downloads
+-rw-r--r-- 1 a a   8980 Nov 21 07:58 examples.desktop
+-rwxrwxrwx 1 a a 340702 Jan 29 15:59 log.txt
+drwxr-xr-x 2 a a   4096 Nov 21 09:21 Music
+drwxr-xr-x 2 a a   4096 Nov 21 09:21 Pictures
+drwxr-xr-x 2 a a   4096 Nov 21 09:21 Public
+drwxr-xr-x 2 a a   4096 Nov 21 09:21 Templates
+drwxr-xr-x 2 a a   4096 Nov 21 09:21 Videos
+
+7. Perintah rm -rf
+Hasil :
+a@a:~$ rm -rf log.txt 
+a@a:~$ ls -l
+total 44
+drwxr-xr-x 2 a a 4096 Nov 21 09:21 Desktop
+drwxr-xr-x 3 a a 4096 Jan 29 14:15 Documents
+drwxr-xr-x 2 a a 4096 Nov 21 09:21 Downloads
+-rw-r--r-- 1 a a 8980 Nov 21 07:58 examples.desktop
+drwxr-xr-x 2 a a 4096 Nov 21 09:21 Music
+drwxr-xr-x 2 a a 4096 Nov 21 09:21 Pictures
+drwxr-xr-x 2 a a 4096 Nov 21 09:21 Public
+drwxr-xr-x 2 a a 4096 Nov 21 09:21 Templates
+drwxr-xr-x 2 a a 4096 Nov 21 09:21 Videos
+
+8. Perintah top
+Hasil :
+mengetahui process yang berjalan
+top - 16:07:38 up  1:27,  1 user,  load average: 0,53, 0,90, 1,00
+Tasks: 222 total,   1 running, 182 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 10,2 us,  2,5 sy,  0,0 ni, 87,3 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem :  4039296 total,   115304 free,  3378636 used,   545356 buff/cache
+KiB Swap:   998396 total,   938224 free,    60172 used.   250796 avail Mem
+ PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND     
+  826 root      20   0  461788  75804  20872 S   5,6  1,9   4:17.22 Xorg        
+ 3432 a         20   0  674356  26276  14228 S   4,3  0,7   0:47.36 gnome-term+ 
+ 1514 a         20   0 1706956 312860  27780 S   3,6  7,7  13:53.32 compiz      
+ 6011 a         20   0 1319912 150580  77712 S   3,3  3,7   0:43.99 chromium-b+ 
+ 5849 a         20   0 1358000 196560  90852 S   2,0  4,9   1:12.55 chromium-b+ 
+ 6098 a         20   0 1242388 104372  67248 S   1,7  2,6   0:16.94 chromi
+
+9. Perintah shutdown - h now 
+Hasil :
+Komputernya mati dong :)
+
+10. Perintah history
+hasil :
+root@a:/home/a# history 
+    1  ifconfig 
+    2  ping 10.33.107.154
+    3  ping 10.33.107.254
+    4  reboot
+    5  wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+
+11. Perintah history -c
+Hasil : Menghapus history
+
+12. Perintah touch
+Hasil : membuat suatu file 
+
+13. Perintah mkdir -p praxis-academy/kemampuan-dasar-1/latihan
+Hasil : membuat folder bersarang secara langsung
+
+14. Perintah tree
+Hasil : membuat tampilan dari master folder dan sub foldernya
