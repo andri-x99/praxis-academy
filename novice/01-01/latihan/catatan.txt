@@ -1,0 +1,10 @@
+word[4] = mendeteksi karakter di posisi 4 dari paling awal
+word[-2:]= mendeteksi karakter di posisi 2 terakhir
+
+letters = [x:x] = []
+
+prefix = 'Py'
+prefix + 'thon'
+concatenate
+
+
