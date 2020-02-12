@@ -15,6 +15,9 @@ class TestSchoolMember(unittest.TestCase):
     def test_salary(self):
         sc_1 = Teacher('Budi',35,500000)
         self.assertEqual(sc_1.salary,500000)
+    def test_marks(self):
+        sc_2 = Student('Anton',17,90)
+        self.assertEqual(sc_2.marks)
 
 if __name__ == '__main__':
     unittest.main()
