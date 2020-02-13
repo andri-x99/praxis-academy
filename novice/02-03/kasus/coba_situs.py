@@ -28,5 +28,3 @@ for item in pages:
         links = 'https://web.archive.org' + artist_name.get('href')
 
         f.writerow([names, links])
-
-# https://www.digitalocean.com/community/tutorials/how-to-scrape-web-pages-with-beautiful-soup-and-python-3
