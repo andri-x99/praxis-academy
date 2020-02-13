@@ -11,13 +11,12 @@ halaman = requests.get(URL)
 
 soup = BeautifulSoup(halaman.content,'html.parser')
 
+''' yang ini tanpa perulangan'''
 # coba_kelas = soup.find_all('div',class_='company') #bisa terambil tanpa prettify
 # print(coba_kelas)
 
 ''' mau pakai perulangan'''
-
 pekerjaan = soup.find_all('section', class_='card-content')
-
 pekerjaan2 = soup.find_all('h2',string=lambda text: 'Therapist' in text )
 
 ''' dibawah ini bisa menampilkan semua dan jenis kelas yang dicari'''
