@@ -1,0 +1,843 @@
+    1  sudo su
+    2  sudo -i
+    3  sudo su
+    4  sudo -i
+    5  cd Downloads/
+    6  ls
+    7  chmod a+x Miniconda3-latest-Linux-x86_64.sh 
+    8  ./Miniconda3-latest-Linux-x86_64.sh 
+    9  conda init
+   10  sudo -i
+   11  python3 if.py 
+   12  python3 for.py 
+   13  python3 for-if.py 
+   14  l
+   15  rm for-if.py 
+   16  l
+   17  python3 range.py 
+   18  python len.py 
+   19  python3 len.py 
+   20  python3 breakcontinue.py 
+   21  cd ..
+   22  ls
+   23  cd python3/
+   24  ls
+   25  cd hari-1/
+   26  ls
+   27  cd kasus/
+   28  ls
+   29  python3 bubble_sorting.py 
+   30  git
+   31  ping google.com
+   32  jupyter
+   33  jupyter -h
+   34  pip
+   35  apt-get install git
+   36  sudo apt-get install git
+   37  jupyter
+   38  sudo jupyter notebook --allow-root
+   39  sudo su
+   40  git init
+   41  echo "# python3" >> README.md
+   42  git add .
+   43  git commit -m "hari ke 1"
+   44  git remote add origin https://github.com/andri-x99/python3
+   45  git push -u origin master
+   46  git remote add origin https://github.com/andri-x99/python3
+   47  git push -u origin master
+   48  cd ..
+   49  ls
+   50  ls -l
+   51  cd h1/
+   52  ls
+   53  cd ..
+   54  mv h1 python3
+   55  cd python3/
+   56  ls
+   57  mkdir hari-1
+   58  mv breakcontinue.py for.py len.py range.py catatan.txt if.py number.py README.md hari-1/
+   59  ls
+   60  cd ..
+   61  cd python3/
+   62  git init
+   63  ls -l
+   64  ls -la
+   65  git commit -m "hari pertama"
+   66  git add .
+   67  git commit -m "hari pertama"
+   68  git remote add origin https://github.com/andri-x99/python3
+   69  git push -u origin master
+   70  git pull origin development
+   71  git push -f origin master
+   72  ls
+   73  cd hari-1/
+   74  ls -la
+   75  cd ..
+   76  ls -la
+   77  cd ..
+   78  git remote add origin https://github.com/andri-x99/python3
+   79  git push -f origin master
+   80  cd python3/
+   81  git init
+   82  git add .
+   83  git commit -m "hari pertama"
+   84  git config --global sapoetraespada99@gmail.com
+   85  git config --global "sapoetraespada99@gmail.com"
+   86  git config --global user."sapoetraespada99@gmail.com"
+   87  git config --global user.email "sapoetraespada99@gmail.com"
+   88  git config --global user.name "andrix-99"
+   89  git remote add origin https://github.com/andri-x99/python3
+   90  git push -f origin master
+   91  git remote remove origin https://github.com/andri-x99/python3
+   92  git remote remove andri-x99
+   93  git remote add origin https://github.com/andri-x99/python3
+   94  git push origin master
+   95  git remote add origin https://github.com/andri-x99/python3
+   96  git push origin master
+   97  git log
+   98  git status
+   99  touch README.md
+  100  git add README.md 
+  101  git commit -m 'init'
+  102  git push origin master 
+  103  git status
+  104  git add hari-1/gambar/
+  105  git status
+  106  git commit -m 'insert gambar'
+  107  git push origin master 
+  108  git status
+  109  git add hari .
+  110  git add .
+  111  git commit -m 'bersih bersih biar rapi'
+  112  gis status
+  113  git status
+  114  git push origin master 
+  115  ls
+  116  cd hari-1/
+  117  ls
+  118  git add latihan/
+  119  git status
+  120  cd latihan/
+  121  ls
+  122  cd ..
+  123  ls
+  124  git add kasus/
+  125  git status
+  126  git add .
+  127  git commit -m "update kasus"
+  128  git push origin master 
+  129  sudo poweroff 
+  130  source /home/a/miniconda3/bin/activate
+  131  pconda activate base
+  132  python3
+  133  source /home/a/miniconda3/bin/activate
+  134  conda activate base
+  135  source /home/a/miniconda3/bin/activate
+  136  conda activate base
+  137  python3 bubble_sorting2.py 
+  138  git add .
+  139  git status
+  140  git commit -m "pagi pagi"
+  141  git push origin master 
+  142  git status
+  143  git commit -a 'ayo segera sarapan'
+  144  git commit -m 'ayo segera sarapan'
+  145  git add bubble_sorting2.py 
+  146  git commit -m 'ayo segera sarapan'
+  147  git push origin master 
+  148  python3 bubble_sorting2.py 
+  149  python3 selection_sort.py 
+  150  git status
+  151  git add selection_sort.py 
+  152  git commit -m 'progress hari ke dua'
+  153  git status
+  154  git push origin master 
+  155  cd ..
+  156  ls
+  157  cd ..
+  158  ls
+  159  cd hari-2
+  160  ls
+  161  cd latihan/
+  162  ls
+  163  python3 latihan.py 
+  164  basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+  165  python3 latihan2.py 
+  166  python3 latihan3.py 
+  167  python3 latihan4.py 
+  168  python3 latihan5
+  169  python3 latihan5.py 
+  170  python3 latihan6.py 
+  171  python3 latihan7.py 
+  172  python3 latihan8.py 
+  173  cd ..
+  174  cd kasus/
+  175  ls
+  176  python3 02-pemanggilan-module-dg-bubblesort.py 
+  177  ls
+  178  python3 02-module-bubblesort.py 
+  179  python3 02-pemanggilan-module-dg-bubblesort.py 
+  180  mv 02-module-bubblesort.py modul-bubble.py
+  181  ls
+  182  python3 02-pemanggilan-module-dg-bubblesort.py 
+  183  mv modul-bubble.py modulbubble.py
+  184  python3 02-pemanggilan-module-dg-bubblesort.py 
+  185  python3 02-pemanggilan-module-dg-selection.py 
+  186  git statis
+  187  git status
+  188  git add .
+  189  git commit -m 'hari kedua ya 2 saja sortingnya'
+  190  git push origin master
+  191  cd ..
+  192  cd hari-
+  193  cd hari-2
+  194  touch README.md
+  195  nano README.md 
+  196  git add README.md 
+  197  git commit -m 'dokumentasi langsung bisa diliat di kodingan'
+  198  nano README.md 
+  199  ls
+  200  cd kasus/
+  201  python3 02-pemanggilan-module-dg-selection.py 
+  202  clear
+  203  python3 02-pemanggilan-module-dg-selection.py 
+  204  cd ..
+  205  cd kasus/
+  206  clear
+  207  python3 02-pemanggilan-module-dg-bubblesort.py 
+  208  git status
+  209  git add .
+  210  git commit -m 'beres beres terus pulang'
+  211  git status
+  212  git add .
+  213  git commit -m 'beres beres terus pulang'
+  214  cd ..
+  215  git add .
+  216  git commit -m 'beres beres terus pulang'
+  217  git push origin master 
+  218  nano README.md 
+  219  git status
+  220  git add README.md 
+  221  git commit -m 'sudah terdokumentasi 2 kasus lebih baik'
+  222  git push origin master 
+  223  nano README.md 
+  224  ls
+  225  source /home/a/miniconda3/bin/activate
+  226  conda activate base
+  227  python3
+  228  git statisource /home/a/miniconda3/bin/activate
+  229  s
+  230  conda activate base
+  231  git status
+  232  cd ..
+  233  gi add hari-2/
+  234  git add hari-2/
+  235  git commit -m 'hari kedua broh'
+  236  git push origin master 
+  237  git status
+  238  git add .
+  239  git commit -m 'hari kedua'
+  240  git push origin master 
+  241  git status
+  242  git add .
+  243  git commit -m 'hari kedua'
+  244  git push origin master 
+  245  nano README.md 
+  246  ls
+  247  cd hari-
+  248  cd hari-2
+  249  ls
+  250  nano README.md 
+  251  git status
+  252  git add README.md 
+  253  git commit -m 'beres beres'
+  254  git push origin master 
+  255  source /home/a/miniconda3/bin/activate
+  256  conda activate base
+  257  git status
+  258  git add hari-3/
+  259  git commit -m 'hari ketiga'
+  260  git push origin master
+  261  git status
+  262  git add hari-3/latihan/kasus1.md 
+  263  cd hari-3/
+  264  ls
+  265  cd latihan/
+  266  ls
+  267  python3 objname.py 
+  268  python3 complex.py 
+  269  python3 counter.py 
+  270  ls
+  271  rm counter.py 
+  272  python3 classinstance.py 
+  273  python3 classinstance2.py 
+  274  python3 randomremarks.py 
+  275  python3 randomremarks2.py 
+  276  python3 oddsandends.py 
+  277  python3 iterators.py 
+  278  nano myfile.txt
+  279  python3 iterators.py 
+  280  python iterators2.py 
+  281  python3 iterators3.py 
+  282  python3 generator.py 
+  283  python3 generator2.py 
+  284  cd ..
+  285  cd kasus/
+  286  ls
+  287  python3 kasus2.py 
+  288  git add .
+  289  git commit -m 'kasus kelar'
+  290  git push origin master 
+  291  sudo poweroff 
+  292  cd hari-3/
+  293  ls
+  294  cd kasus/
+  295  ls
+  296  mv kasus1.py kasus1.md
+  297  GIT STATUS
+  298  git status
+  299  git add kasus1.md 
+  300  git commit -m 'selesaikan pertemuan 3'
+  301  git push origin master 
+  302  git add kasus1.md 
+  303  git commit -m 'selesaikan pertemuan 3'
+  304  git push origin master 
+  305  git add kasus1.md 
+  306  git commit -m 'selesaikan pertemuan 3'
+  307  git push origin master 
+  308  git add kasus1.md 
+  309  git commit -m 'selesaikan pertemuan 3'
+  310  git push origin master 
+  311  python3 kasus2.py 
+  312  python3
+  313  source /home/a/miniconda3/bin/activate
+  314  cdconda activate base
+  315  cd hari-3/
+  316  cd kasus/
+  317  ls
+  318  git status
+  319  git add kasus2.py 
+  320  git commit -m 'selesaikan hari ke tiga'
+  321  git push origin master 
+  322  cd ..
+  323  cd 02-01/
+  324  python3 latihan/latihan01.py 
+  325  cd latihan/
+  326  ls
+  327  python3 latihan01.py 
+  328  python3 latihan02.py 
+  329  python3 latihan03.py 
+  330  python3 latihan02.py 
+  331  python3 latihan03.py 
+  332  python3 latihan04.py 
+  333  python3 latihan06.py 
+  334  source /home/a/miniconda3/bin/activate
+  335  conda activate base
+  336  git status
+  337  git add 02-01/
+  338  git commit -m 'minggu 2 hari ke-1
+  339  git commit -m 'minggu 2 hari ke-1'
+  340  git push origin master 
+  341  ping google.com
+  342  ls
+  343  cd Documents/python3/
+  344  ls
+  345  cd hari-4
+  346  ls
+  347  git status
+  348  cd ..
+  349  git status
+  350  git add hari-4/
+  351  git status
+  352  git commit -m 'minggu kedua sudah berjalan tetap semangat'
+  353  git push origin master 
+  354  ping 10.13.10.13
+  355  /etc/init.d/networking restart
+  356  sudo /etc/init.d/networking restart
+  357  /etc/init.d/networking restart
+  358  ping 10.13.10.13
+  359  sudo reboot
+  360  cd 02-02/
+  361  cd kasus/
+  362  ls
+  363  python3 test-kasus01-inheritance.py 
+  364  python3 testkasus01inheritance.py 
+  365  git status
+  366  git add .
+  367  git commit -m 'hari kedua'
+  368  git push origin master 
+  369  cd ..
+  370  git status
+  371  cd ..
+  372  git status
+  373  cd ..
+  374  git status 
+  375  cd python3/
+  376  git add .
+  377  git status 
+  378  git commit -m 'minggu kedua'
+  379  git push origin master 
+  380  git status 
+  381  git add .
+  382  git commit -m 'bersihkan'
+  383  git push origin master 
+  384  source /home/a/miniconda3/bin/activate
+  385  conda activate base
+  386  /home/a/miniconda3/bin/python /home/a/Documents/python3/02-02/kasus/kasus01inheritance.py
+  387  /home/a/miniconda3/bin/python /home/a/Documents/python3/02-02/kasus/testkasus01inheritance.py
+  388  /home/a/miniconda3/bin/python /home/a/Documents/python3/02-02/kasus/kasus01inheritance.py
+  389  /home/a/miniconda3/bin/python /home/a/Documents/python3/02-02/kasus/testkasus01inheritance.py
+  390  source /home/a/miniconda3/bin/activate
+  391  conda activate base
+  392  cd 02-02/
+  393  ls
+  394  cd kasus/
+  395  ls
+  396  python3 testkasusbubble2.py 
+  397  python3 testkasusselectionsort.py 
+  398  cd ..
+  399  cd kasus/
+  400  ls
+  401  python3 kasusinsertion.py 
+  402  python3 testkasusinsertion.py 
+  403  python3 kasusmerge.py 
+  404  python3 testkasusmerge.py 
+  405  python3 testkasusquick.py 
+  406  ls
+  407  git status
+  408  git add .
+  409  git commit -m 'menyelesaikan minggu pertama'
+  410  git push origin master 
+  411  cd ..
+  412  git statis
+  413  git status
+  414  git add .
+  415  git commit -m 'menyelesaikan minggu pertama'
+  416  git push origin master 
+  417  git add novice/01-04/kasus/atm.py 
+  418  git commit -m 'menyelesaikan minggu pertama'
+  419  git push origin master 
+  420  cd novice/
+  421  cd 02-03/
+  422  cd latihan/
+  423  python3 non-concurrent.py 
+  424  python3 threading.py 
+  425  python3 non-concurrent.py 
+  426  python3 threading.py 
+  427  python3 non-concurrent.py 
+  428  source /home/a/miniconda3/bin/activate
+  429  conda activate base
+  430  /home/a/miniconda3/bin/python -m pip install -U rope
+  431  /home/a/miniconda3/bin/python /home/a/Documents/python3/02-02/kasus/testkasus01inheritance.py
+  432  git status 
+  433  git add 02-02/
+  434  git status 
+  435  git commit -m 'hari kedua di malam hari'
+  436  git push origin master 
+  437  cd 01-01/
+  438  cd kasus/
+  439  python3 insertion_sorting.py 
+  440  ls
+  441  python3 radix.py 
+  442  source /home/a/miniconda3/bin/activate
+  443  conda activate base
+  444  git status 
+  445  git add .
+  446  git status 
+  447  git commit -m 'hari kedua'
+  448  git commit -m 'hari ke-2 minggu ke-2'
+  449  git push origin master 
+  450  ping google.com
+  451  git push origin master 
+  452  git add .
+  453  git status 
+  454  git commit -m 'tugas 5 kasorting'
+  455  git push  origin master 
+  456  cd 01-04/
+  457  cd kasus/
+  458  python3 atm.py 
+  459  cd ..
+  460  cd 02-02/
+  461  ls
+  462  cd kasus/
+  463  python3 testkasusinsertion.py 
+  464  pytest 
+  465  python3 testkasusbubble2.py 
+  466  pytest 
+  467  python3 testkasusinsertion.py 
+  468  cd ..
+  469  cd 01-04
+  470  ls
+  471  cd kasus/
+  472  python3 atm.py 
+  473  cd 02-03/latihan/
+  474  python3 non-concurrent.py 
+  475  python3 threading.py 
+  476  python3 threading2.py 
+  477  python3 multiprocessing.py 
+  478  python3 multiprocessing2.py 
+  479  python3 ovi.py 
+  480  cd
+  481  ls
+  482  cd Documents/
+  483  . my_env/bin/activate
+  484  my_env/bin/activate
+  485  sudo pip install tox
+  486  ls
+  487  cd Documents/
+  488  ls
+  489  git clone https://github.com/andri-x99/praxis-academy.git
+  490  ls
+  491  git status
+  492  cd praxis-academy/
+  493  ls
+  494  ls -l
+  495  mkdir novice
+  496  git init
+  497  git status 
+  498  ls -l
+  499  ls -la
+  500  git status 
+  501  git add .
+  502  git commit -m 'rapihkan'
+  503  git push origin master 
+  504  cd novice/
+  505  cd 01-04/
+  506  cd kasus/
+  507  python3 atm.py 
+  508  pip install requests
+  509  pip install request
+  510  pip install concurent
+  511  pip install concurrent
+  512  pip install aiohttp 
+  513  pip install BeautifulSoup4
+  514  pip install virtualenv
+  515  pip install urrlib
+  516  pi instal urllib
+  517  pip instal urllib
+  518  pip install urllib
+  519  pip install urllib.request
+  520  pip install urllib.response
+  521  pip install panda
+  522  pip install bs4
+  523  pip install requests
+  524  pip3 install virtualenv
+  525  cd ..
+  526  virtualenv 
+  527  virtualenv p praxis-academy/
+  528  python3 -m virtualenv 
+  529  cd praxis-academy/
+  530  python3 -m virtualenv env
+  531  ls
+  532  source env/bin/activate
+  533  nano coba_bhineka
+  534  ls
+  535  touch coba_situs.py
+  536  nano coba_situs.py 
+  537  ls
+  538  cd env/
+  539  ls
+  540  python3 coba_situs.py 
+  541  source /home/a/Documents/praxis-academy/env/bin/activate
+  542  git status
+  543  git add .
+  544  git status
+  545  git commit -m 'scraping kata di suatu situs ekspor ke csv'
+  546  git push origin master 
+  547  git status
+  548  git add novice/
+  549  git commit -m 'scraping kata di suatu situs ekspor ke csv'
+  550  git push origin master 
+  551  sudo -i
+  552  cd Documents/
+  553  ls
+  554  cd praxis-academy/
+  555  ls
+  556  cd env/
+  557  activate 
+  558  cd ..
+  559  env/bin/activate
+  560  source env/bin/activate
+  561  cd env/
+  562  python3 coba_situs.py 
+  563  pip install requests
+  564  pip --help
+  565  pip uninstall requests
+  566  pip3 install requests
+  567  python3 coba_situs.py 
+  568  ls
+  569  nano z-artist-names.csv 
+  570  python3 coba_situs.py 
+  571  cd ..
+  572  cd novice/02-03/kasus/
+  573  python3 coba_situs.py 
+  574  ls
+  575  exit
+  576  source /home/a/Documents/praxis-academy/env/bin/activate
+  577  poweroff 
+  578  ls
+  579  cd novice/02-03/kasus/
+  580  ls
+  581  python3 coba_situs.py 
+  582  clear
+  583  python3 coba_situs.py 
+  584  clear
+  585  python3 coba_situs.py 
+  586  ping google.om
+  587  ping google.com
+  588  /etc/init.d/networking restart
+  589  ping google.com
+  590  reboot
+  591  ping google.com
+  592  ping 8.8.8.8
+  593  ping facebook.com
+  594  nano /etc/resolv.conf 
+  595  ping google.com
+  596  sudo reboo
+  597  sudo reboot
+  598  cd novice/02-03source /home/a/Documents/praxis-academy/env/bin/activate
+  599  cd novice/02-03/kasus/
+  600  ls
+  601  python3 coba_situs.py 
+  602  python3 coba_detik.py.py 
+  603  python3 coba_detik.py
+  604  clear
+  605  python3 coba_bhinneka.py 
+  606  clear
+  607  python3 coba_bhinneka.py 
+  608  cd ..
+  609  source env/bin/activate
+  610  cd novice/02-03/kasus/
+  611  python3 coba_bhinneka.py 
+  612  ping google.com
+  613  pip install urllib3
+  614  pip install selenium
+  615  pip install urrlib3
+  616  pip install urllib3
+  617  pip --help
+  618  pip uninstall urllib3
+  619  pip uninstall requests
+  620  pip install urllib3
+  621  pip install requests
+  622  cd novice/02-03/kasus/
+  623  python3 coba_bhinneka.py 
+  624  cd ..
+  625  git status
+  626  git add .
+  627  git status
+  628  git commit -m 'advanced web scrapper'
+  629  git push origin master 
+  630  git add .
+  631  git commit -m 'advanced web scrapper'
+  632  git push origin master 
+  633  git status
+  634  git add novice/02-03/kasus/easy_scrap.py 
+  635  git commit -m 'advance web scrapper'
+  636  git push origin master 
+  637  source /home/a/Documents/praxis-academy/env/bin/activate
+  638  /home/a/Documents/praxis-academy/env/bin/python3.7 /home/a/Documents/praxis-academy/novice/02-03/kasus/coba_bhinneka.py
+  639  pip install beautifulsoup
+  640  pip install beautifulsoup4
+  641  cd novice/02-03/kasus/
+  642  python3 coba_bhinneka.py 
+  643  /home/a/Documents/praxis-academy/env/bin/python3.7 /home/a/Documents/praxis-academy/novice/02-03/kasus/coba_bhinneka.py
+  644  python3 coba_bhinneka.py 
+  645  cat coba_bhinneka.py 
+  646  ls
+  647  python3 coba_bhinneka.py 
+  648  ls
+  649  nano coba_bhinneka.csv 
+  650  git status
+  651  cd ..
+  652  cd kasus/
+  653  python3 easy_scrap.py 
+  654  sudo su
+  655  sudo apt-get install mysql
+  656  sudo apt-get install mysqld
+  657  sudo apt-get install mysql
+  658  sudo apt-get install mysql-server
+  659  sudo mysql_secure_installation utility
+  660  cd novice/02-05/latihan/
+  661  python3 connection.py 
+  662  source /home/a/Documents/praxis-academy/env/bin/activate
+  663  cd novice/02-05/latihan/
+  664  python3 connection.py 
+  665  pip3 install mysql-connector
+  666  python3 connection.py 
+  667  python3 connection2.py 
+  668  python3 connection3.py 
+  669  python3 connection4.py 
+  670  python3 connection5.py 
+  671  python3 5_menampilkan-proses.py 
+  672  python3 6_update-data.py 
+  673  python3 7_delete-data.py 
+  674  python3 4_tambahkan-data-banyak.py 
+  675  python3 FINAL_CRUD.py 
+  676  git status
+  677  git add .
+  678  git commit -m 'belajar tentang crud'
+  679  git push origin master 
+  680  source /home/a/Documents/praxis-academy/env/bin/activate
+  681  /home/a/Documents/praxis-academy/env/bin/python3.7 /home/a/Documents/praxis-academy/novice/02-05/latihan/connection2.py
+  682  source /home/a/Documents/praxis-academy/env/bin/activate
+  683  sudo mysql_secure_installation utility
+  684  sudo ufw enable
+  685  sudo ufw allow mysql
+  686  sudo systemctl start mysql
+  687  mysql
+  688  sudo mysql
+  689  mysql
+  690  sudo apt install python3-mysql.connector
+  691  pip3 install mysql-connector
+  692  mysql -u root -p
+  693  mysqld --skip-grant-tables
+  694  mysql -u root mysql
+  695  sudo mysql_secure_installation utility
+  696  mysql -u root -p
+  697  sudo mysql -u root
+  698  mysql -u root -p
+  699  sudo mysql -u root
+  700  sudo apt-get remove mysql-server
+  701  sudo apt-get install mysql-server
+  702  dpkg --reconfigure mysql-server
+  703  sudo mysql_secure_installation utility
+  704  sudo ufw enable
+  705  sudo ufw allow mysql
+  706  sudo systemctl start mysql
+  707  sudo systemctl enable mysql
+  708  mysql -u root -p
+  709  sudo mysql -u root
+  710  sudo su
+  711  sudo reboot
+  712  cd ..
+  713  ls
+  714  cd Downloads/
+  715  ls
+  716  sudo dpkg -i virtualbox-6.1_6.1.2-135662~Ubuntu~xenial_amd64.deb 
+  717  git clone https://github.com/Pwnlandia/mhn.git
+  718  ls
+  719  cd mhn/
+  720  ls
+  721  vagrant up
+  722  apt-get install vagrant
+  723  sudo apt-get install vagrant
+  724  vagrant ssh server
+  725  ls
+  726  VagrantFile
+  727  nano Vagrantfile 
+  728  ifconfig
+  729  /etc/init.d/networking restart
+  730  ifconfig
+  731  ls
+  732  vagrant ssh server
+  733  nano Vagrantfile 
+  734  lsb_realese -a
+  735  lsb_release -a
+  736  nano Vagrantfile 
+  737  ls
+  738  nano vagrant-bootstrap.sh 
+  739  vagrant ssh server
+  740  vagrant status
+  741  vagrant global-status --prone
+  742  vagrant global-status --prune
+  743  vagrant ssh server
+  744  cd ./.vagrant/
+  745  pwd
+  746  ls
+  747  cd ..
+  748  rm -rf .vagrant/
+  749  vagrant global-status --prune
+  750  vagrant up
+  751  vagrant box add hashicorp/xenial64
+  752  nano vagrant-bootstrap.sh 
+  753  nano Vagrantfile 
+  754  vagrant box list
+  755  vagrant box add 
+  756  vagrant box add hashicorp/xenial64
+  757  nano Vagrantfile 
+  758  vagrant up --debug
+  759  vagrant box add hashicorp/xenial64
+  760  vagrant up
+  761  dpkg-reconfigure virtualbox-*
+  762  sudo dpkg-reconfigure virtualbox-*
+  763  sudo dpkg-reconfigure virtualbox-
+  764  sudo dpkg-reconfigure virtualbox
+  765  VBoxManage --version
+  766  sudo apt install virtualbox-dkms
+  767  vagrant up
+  768  sudo poweroff 
+  769  vagrant up
+  770  vagrant init
+  771  cd mhn/
+  772  vagrant init
+  773  ls
+  774  cd ..
+  775  ls
+  776  rm Vagrantfile 
+  777  cd ..
+  778  cd a/Documents/
+  779  cd ..
+  780  cd mhn/
+  781  ls
+  782  vagrant up
+  783  ping google.com
+  784  Virtualbox --version
+  785  vbox --version
+  786  sudo apt-get purge virtualbox
+  787  apt-get install virtualbox
+  788  sudo apt-get install virtualbox
+  789  sudo apt-get remove && purge virtualbox
+  790  sudo apt-get remove virtualbox
+  791  sudo reboot
+  792  sudo apt-get update
+  793  sudo apt-get install virtualbox-6.1
+  794  wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+  795  sudo apt-get update
+  796  sudo apt-get install virtualbox-6.1
+  797  ls
+  798  cd VirtualBox\ VMs/
+  799  ls
+  800  cd ..
+  801  cd Downloads/
+  802  dpkg -i virtualbox-6.1_6.1.2-135662~Ubuntu~xenial_amd64\(2\).deb 
+  803  sudp dpkg -i virtualbox-6.1_6.1.2-135662~Ubuntu~xenial_amd64\(2\).deb 
+  804  sudo dpkg -i virtualbox-6.1_6.1.2-135662~Ubuntu~xenial_amd64\(2\).deb 
+  805  cd ..
+  806  cd mhn/
+  807  ls
+  808  vagrant up
+  809  vagrant --version
+  810  apt-get remove vagrant
+  811  sudo apt-get remove vagrant
+  812  cd ..
+  813  cd Downloads/
+  814  unzip vagrant_2.2.7_linux_amd64.zip 
+  815  ls
+  816  vagrant --version
+  817  vgrant
+  818  vagrant
+  819  ls -l
+  820  ls
+  821  sudo dpkg -i vagrant_2.2.7_x86_64.deb 
+  822  cd ..
+  823  cd mhn/
+  824  vgrant ini
+  825  vagrant ini
+  826  vagrant init
+  827  vagrant up
+  828  nano Vagrantfile 
+  829  vagrant up
+  830  nano Vagrantfile 
+  831  sudo poweroff 
+  832  cd mhn/
+  833  ls
+  834  vgrant up
+  835  vagrant up
+  836  nano Vagrantfile
+  837  vagrant up
+  838  VBoxManage modifyvm mhn_default_1581824195477_58671 --nested-hw-virt on
+  839  nano Vagrantfile
+  840  vagrant up
+  841  sudo poweroff 
+  842  history 
+  843  history >> command.txt
