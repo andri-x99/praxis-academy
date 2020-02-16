@@ -12,6 +12,8 @@ else:
     print("gagal")
 
 cursor = db.cursor()
-cursor.execute("drop database nama_guru")
+# cursor.execute("drop database nama_guru")
+cursor.execute("create database nama_guru")
 
-print("Database telah dihapus!")
+# print("Database telah dihapus!")
+print("Database telah dibuat!")
