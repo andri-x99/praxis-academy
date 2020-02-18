@@ -3,10 +3,10 @@ use tabel1
 db.tabel1.insertMany(
     [
         {
-        "membership_id":"1",
-        "full_names":"Janet Jones",
-        "physical_address":"1st Street Plot No 4",
-        "salutation_id":"2"
+            "membership_id":"1",
+            "full_names":"Janet Jones",
+            "physical_address":"1st Street Plot No 4",
+            "salutation_id":"2"
         },
         {
             "membership_id":"2",
