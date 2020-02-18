@@ -1,5 +1,6 @@
 use tabel1
-'''db.tabel1.insert(
+```
+db.tabel1.insertMany(
     [
         {
         "membership_id":"1",
@@ -21,7 +22,7 @@ use tabel1
         }
     ]
 )
-'''
+```
 Jadi kenapa mongo berbeda karena konsepnya unik :
 1. Membuat database dengan "use" lihatnya dengan "show dbs"
 2. Auto increment dan primary key dibuat otomatis
