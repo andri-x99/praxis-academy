@@ -1,0 +1,28 @@
+<!-- baru aja ditambahkan ya -->
+{% from "macros.html" import nav_link with context %}.
+
+{% extends "layout.html" %}
+{% block title %}{{title}}{% endblock %}
+<!-- alhamdulillah, baru tau sekarang, jadi kenapa di layout ga dikasi apa2
+karena di sini dipanggil nih si title, terus di backendnya, di route
+bahwa title = HOME, makanya ada tulisan HOME didepan FLASK SUPER -->
+{% block page %}{{title}}{% endblock %}
+{% block content %}
+  <h3> This is the start of my child template</h3>
+  <br>
+  <p>My string: {{my_string}}</p>
+  <p>Value from the list: {{my_list[3]}}</p>
+  <p>Loop through the list:</p>
+  <ul>
+    {% for n in my_list %}
+    <li>{{n}}</li>
+    {% endfor %}
+  </ul>
+  <br>
+  <p>Same list with a filter: {{ my_list|join(', ') }}</p>
+  <h3> This is the end of my child template</h3>
+  <h4>Current date/time: {{ current_time | datetimefilter }}</h4>
+  {% block footer %}
+  {{super()}}
+  {% endblock %}
+{% endblock %}
