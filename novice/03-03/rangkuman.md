@@ -10,4 +10,4 @@ Tidak seperti mesin template Django, Jinja memungkinkan perancang template untuk
 ### Genshi
 ### evoque
 
-Jadi, di kasus latihan ada namanya parent dan child, parent isinya tentang html full, nah child ini manggil dari parentnya itu, kodingan child lebih simple seharusnya
+Jadi, di kasus latihan ada namanya parent dan child, parent isinya tentang html full, nah child ini manggil dari parentnya itu, kodingan child lebih simple seharusnya, tapi nanti di latihan run.py itu yang bener, tapi run1.py kebalik hehe
