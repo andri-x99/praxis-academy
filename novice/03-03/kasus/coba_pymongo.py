@@ -1,83 +1,112 @@
 import pymongo
-
-db = pymongo.MongoClient("mongodb://localhost:27017/")
-
-# database
-dbku = db["blog"]
-# collection
-collectionku = dbku['artikel']
-
-# data yang akan diinsert
-data = { "judul": "belajar ngoding python-mongodb", "penulis": "Faqih" }
-
-# data diinsert
-collectionku.insert_one(data)
-
-import pymongo
-
-db = pymongo.MongoClient("mongodb://localhost:27017/")
-
-dbku = db["blog"]
-collectionku = dbku['artikel']
-
-data = [
-    { "judul": "Tutorial perulangan di Python", "penulis": "Hamami" },
-    { "judul": "Tutorial percabangan di Python", "penulis": "Hamami" },
-    { "judul": "Memahami konsep NoSQL", "penulis": "Ina" },
-    { "judul": "Instalasi NoSQL di Ubuntu", "penulis": "Ina" }
-]
-
-collectionku.insert_many(data)
-
-import pymongo
-
-db = pymongo.MongoClient("mongodb://localhost:27017/")
-
-dbku = db["blog"]
-collectionku = dbku['artikel']
+from flask import Flask, render_template, request, url_for
+from werkzeug.utils import secure_filename
 
 
-nilai_lama = { "judul": "belajar ngoding python-mongodb" }
-nilai_baru = { "$set": { "judul": "belajar ngoding kolaborasi python & mongodb" } }
+# db = pymongo.MongoClient("mongodb://localhost:27017/")
+# # database
+# database = db["tabel1"]
+# # collection
+# namatabel = database['tabel1']
+# kebetulan sama nama database dan collectionnya
+# karena sebenarnya collection itu adalah suatu tabel
 
-collectionku.update_one(nilai_lama, nilai_baru)
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+  db = pymongo.MongoClient("mongodb://localhost:27017/")
+  database = db["tabel1"]
+  namatabel = database['tabel1']
+  data = []
+  for i in namatabel.find():
+    data.append(i)
+  
+  nama = 'halo'
+  return render_template('tampilan_coba_pymongo.html', data=data, datanama=nama, angka=2)
+
+@app.route("/about")
+def about():
+  return render_template('tampilan_coba_pymongo.html')
+  
+    
+@app.route("/contact")
+def contact():
+  return render_template('tampilan_coba_pymongo.html')
+  
+    
+  
 
 
-import pymongo
 
-db = pymongo.MongoClient("mongodb://localhost:27017/")
+# import pymongo
 
-dbku = db["blog"]
-collectionku = dbku['artikel']
+# db = pymongo.MongoClient("mongodb://localhost:27017/")
 
-for artikel in collectionku.find():
-  print(artikel)
+# database = db["tabel1"]
+# namatabel = database['tabel1']
 
-import pymongo
+# data = [
+#     { "judul": "Tutorial perulangan di Python", "penulis": "Hamami" },
+#     { "judul": "Tutorial percabangan di Python", "penulis": "Hamami" },
+#     { "judul": "Memahami konsep NoSQL", "penulis": "Ina" },
+#     { "judul": "Instalasi NoSQL di Ubuntu", "penulis": "Ina" }
+# ]
 
-db = pymongo.MongoClient("mongodb://localhost:27017/")
+# namatabel.insert_many(data)
 
-dbku = db["blog"]
-collectionku = dbku['artikel']
+# -------------------------------------------------------------------------------------------------------------
+# import pymongo
 
-nilai = { "judul": "Instalasi NoSQL di Ubuntu" }
+# db = pymongo.MongoClient("mongodb://localhost:27017/")
 
-collectionku.delete_one(nilai)
+# database = db["tabel1"]
+# namatabel = database['tabel1']
 
-import pymongo
 
-db = pymongo.MongoClient("mongodb://localhost:27017/")
+# nilai_lama = { "judul": "belajar ngoding python-mongodb" }
+# nilai_baru = { "$set": { "judul": "belajar ngoding kolaborasi python & mongodb" } }
 
-dbku = db["blog"]
-collectionku = dbku['artikel']
+# namatabel.update_one(nilai_lama, nilai_baru)
+# -------------------------------------------------------------------------------------------------------------
+# import pymongo
 
-nilai = { "penulis": "Hamami" }
+# db = pymongo.MongoClient("mongodb://localhost:27017/")
 
-collectionku.delete_many(nilai)
+# database = db["tabel1"]
+# namatabel = database['tabel1']
 
-root@aa:~# mkdir /data/db -p (biar ada penampungan databasenya)
-root@aa:~# mongo
+# for tabel1 in namatabel.find():
+#   print(tabel1)
 
-terminal 1 : mongod / mongo
-terminal 2 : mongo --port 27017
-terkadang tuh folder databasenya ilang coba, buat lagi aja
+# -------------------------------------------------------------------------------------------------------------
+# import pymongo
+
+# db = pymongo.MongoClient("mongodb://localhost:27017/")
+
+# database = db["tabel1"]
+# namatabel = database['tabel1']
+
+# nilai = { "judul": "Instalasi NoSQL di Ubuntu" }
+
+# namatabel.delete_one(nilai)
+
+# -------------------------------------------------------------------------------------------------------------
+# import pymongo
+
+# db = pymongo.MongoClient("mongodb://localhost:27017/")
+
+# database = db["tabel1"]
+# namatabel = database['tabel1']
+
+# nilai = { "penulis": "Hamami" }
+
+# namatabel.delete_many(nilai)
+
+# root@aa:~# mkdir /data/db -p (biar ada penampungan databasenya)
+# root@aa:~# mongo
+
+# terminal 1 : mongod / mongo
+# terminal 2 : mongo --port 27017
+# terkadang tuh folder databasenya ilang coba, buat lagi aja
