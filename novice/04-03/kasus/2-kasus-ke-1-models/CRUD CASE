@@ -1,0 +1,11 @@
+user : kasus1
+pass : minggu4
+
+flask db init : buat folder migrate
+
+sudo apt-get install python-pip python-dev libmysqlclient-dev
+apt-get install python-mysqldb
+
+
+flask db migrate :
+flask db upgrade :
