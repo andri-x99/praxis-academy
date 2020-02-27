@@ -9,3 +9,45 @@ apt-get install python-mysqldb
 
 flask db migrate :
 flask db upgrade :
+
+#########################################################
+KONSEP BASIC
+1.  Menyiapkan SQLAlchemy sebagai penghubung object app ke tabel MYSQL
+    MYSQL Python penghubung python ke database mysqldb
+
+2.  Membuat user terlebih dahulu, kemudian membuat database, dan terakhir privilegesnya diberikan ke usernya tadi
+3.  *config.py* ==> Konfigurasi config.py sejajar app dengan membuat kelas Config, Development_C, Production_C -> lalu di eksekusi pada app_config
+
+4.  Membuat direktori instance : isinya user database dan secret key
+5.  *app/__init__.py* ==> melakukan import Flask & SQLAlchemy & app_config
+    Membuat fungsi app untuk meload config.py / class yang dibuat tadi
+    Membuat objek db untuk berinteraki dengan database
+6.  *run.py* ==> dari sini dia mengambil fungsi create_app dari folder app
+    config_name disetarakan dengan getenv FLASK_CONFIG
+    --def create_app(config_name):--
+    dan app = create_app(config_name)
+    dan app dijalankan
+7.  *app/__init__.py* ==> membuat fungsi agar ditampilkan di layar
+    memakai route / dan di return ke Hello, World
+8.  Melakukan export ke flask config dan app, defaultnya development dan run.py
+    Menjalankan flask.run
+
+-----------------------------------------------------------
+KONSEP MIDDLE BUAT LOGIN
+9.  *app/__init__.py* ==> menambahkan login_manager ke app
+10. *models.py* ==> melakukan import db dan login_manager secara local dan flask_login
+    Membuat kelas employee yang didalamnya untuk membuat tabel employee
+    Fungsi: propertyPassword, password.setterPassword, verify_passwordPassword, repr
+    Membuat kelas Departemen 
+    Fungsi: repr
+    Membuat kelas Role
+    Fungsi: repr
+11. Migrasi bertujuan untuk mengelola perubahan yang dibuat pada model lalu menyebarkan perubahan kepada database
+12. *app/__init__.py* ==> memasukkan modul flask_migrate untuk migrasi, lalu migrate app&db, kemudian import models dari app
+13. INIT : membuat inisiasi migrasi pada folder 2-kasus-ke-1-models
+14. MIGRATE : membuat migrasi pertama kali
+15. UPGRADE : menerapkan migrasi yang telah dibuat
+-------------------------------------------------------------
+KONSEP ADVANCED BLUEPRINTS
+16.
+

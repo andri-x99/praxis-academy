@@ -5,26 +5,34 @@ from config import app_config
 from flask_login import LoginManager
 #BARIS SISIPAN 3
 from flask_migrate import Migrate
+#BARIS SISIPAN 5
+from config import app_config
+#BARIS SISIPAN 6
+from flask_bootstrap import Bootstrap
 
 db = SQLAlchemy()
 #BARIS SISIPAN 2
 login_manager = LoginManager()
-#BARIS SISIPAN 5
-from config import app_config
 
+# Bootstrap(app)
 def create_app(config_name):
     app = Flask(__name__, instance_relative_config=True)
     app.config.from_object(app_config[config_name])
     app.config.from_pyfile('config.py')
+    
+    #BARIS SISIPAN 6
+    Bootstrap(app)
     db.init_app(app)
     #BARIS SISIPAN
-    @app.route('/')
-    def hello_world():
-        return 'Hello, World!'
+    # @app.route('/')
+    # def hello_world():
+    #     return 'Hello, World!'
     #BARIS SISIPAN 2
     login_manager.init_app(app)
     login_manager.login_message = "You must be logged in to access this page."
     login_manager.login_view = "auth.login"
+    # BARIS SISIPAN 6
+    migrate = Migrate(app, db)
     #BARIS SISIPAN 3
     migrate = Migrate(app, db)
 
