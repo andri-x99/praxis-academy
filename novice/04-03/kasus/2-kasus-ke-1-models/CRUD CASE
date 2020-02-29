@@ -47,6 +47,7 @@ KONSEP MIDDLE BUAT LOGIN
 13. INIT : membuat inisiasi migrasi pada folder 2-kasus-ke-1-models
 14. MIGRATE : membuat migrasi pertama kali
 15. UPGRADE : menerapkan migrasi yang telah dibuat
+https://realpython.com/using-flask-login-for-user-management-with-flask/
 -------------------------------------------------------------
 KONSEP ADVANCED BLUEPRINTS
 16.

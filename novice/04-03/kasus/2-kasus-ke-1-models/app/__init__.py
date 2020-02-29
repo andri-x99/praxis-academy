@@ -31,8 +31,7 @@ def create_app(config_name):
     login_manager.init_app(app)
     login_manager.login_message = "You must be logged in to access this page."
     login_manager.login_view = "auth.login"
-    # BARIS SISIPAN 6
-    migrate = Migrate(app, db)
+  
     #BARIS SISIPAN 3
     migrate = Migrate(app, db)
 
